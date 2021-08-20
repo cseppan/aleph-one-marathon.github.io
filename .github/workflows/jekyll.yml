@@ -22,4 +22,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: _site
-        path: /srv/jekyll/_site
+        path: ${{ github.workspace }}/_site
